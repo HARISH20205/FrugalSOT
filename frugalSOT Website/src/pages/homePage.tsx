@@ -126,7 +126,7 @@ export default function HomePage() {
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </motion.button>
                 </Link>
-                <Link to="https://github.com/HARISH20205/RPI/">
+                <Link to="https://github.com/HyperKuvid-Labs/FrugalSOT">
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
