@@ -37,7 +37,13 @@ export default function DocumentationPage() {
 
             <p className="text-lg text-gray-300 mb-8">
               This is our documentation. Please download and suggest solutions.
-              CLI tool😉 - <a href="https://github.com/HyperKuvid-Labs/FrugalSOT-CLI">FrugalSOT-CLI</a>
+              CLI tool😉 -{" "}
+              <a
+                href="https://github.com/HyperKuvid-Labs/FrugalSOT-CLI"
+                className="text-s font-medium mb-4 text-yellow-400"
+              >
+                FrugalSOT-CLI
+              </a>
             </p>
           </motion.div>
 
