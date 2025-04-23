@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { Cpu, BarChart3, Github, ArrowRight, Mail } from "lucide-react";
 import NeuronBackground from "../components/matrixBackground";
 import ModelPyramid from "../components/modelPyramid";
+import DemoVideo from "../components/demoVIdeo";
 // import ComplexityCalculator from "@/components/complexity-calculator"
 
 export default function HomePage() {
@@ -229,7 +230,6 @@ export default function HomePage() {
       </section>
 
       {/* Model Visualization */}
-      {/* Model Visualization */}
       <section className="py-20 relative">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-yellow-900/5 to-black"></div>
         <div className="container mx-auto px-4 relative z-10">
@@ -264,6 +264,38 @@ export default function HomePage() {
               <ModelPyramid />
             </motion.div>
           </div>
+        </div>
+      </section>
+
+      {/* Demo Video Section */}
+      <section className="py-20 relative">
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-yellow-900/5 to-black"></div>
+        <div className="container mx-auto px-4 relative z-10">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              See It In <span className="text-yellow-400">Action</span>
+            </h2>
+            <p className="text-gray-400 max-w-2xl mx-auto">
+              Watch how FrugalSOT dynamically adapts to different complexity levels
+              and optimizes model selection in real-time.
+            </p>
+          </motion.div>
+          
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="max-w-4xl mx-auto"
+          >
+            <DemoVideo />
+          </motion.div>
         </div>
       </section>
 
