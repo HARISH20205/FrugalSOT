@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import ReactPlayer from "react-player";
 import { motion, AnimatePresence } from "framer-motion";
 import { Play, Pause, Volume2, VolumeX, Maximize2 } from "lucide-react";
@@ -60,7 +60,7 @@ export default function DemoVideo() {
           max={1}
           step={0.001}
           value={played}
-          onChange={e => {
+          onChange={(e) => {
             const seekTo = parseFloat(e.target.value);
             setPlayed(seekTo);
             playerRef.current?.seekTo(seekTo, "fraction");
@@ -86,17 +86,21 @@ export default function DemoVideo() {
           >
             {/* Play/Pause */}
             <button
-              onClick={() => setIsPlaying(p => !p)}
+              onClick={() => setIsPlaying((p) => !p)}
               className="bg-yellow-500 hover:bg-yellow-400 transition-colors text-black p-2 rounded-full shadow-lg flex items-center justify-center focus:outline-none"
               aria-label={isPlaying ? "Pause" : "Play"}
             >
-              {isPlaying ? <Pause className="w-6 h-6" /> : <Play className="w-6 h-6" />}
+              {isPlaying ? (
+                <Pause className="w-6 h-6" />
+              ) : (
+                <Play className="w-6 h-6" />
+              )}
             </button>
 
             {/* Volume */}
             <div className="flex items-center bg-gray-900/90 rounded-full px-3 py-1 gap-2">
               <button
-                onClick={() => setIsMuted(m => !m)}
+                onClick={() => setIsMuted((m) => !m)}
                 className="text-yellow-500 hover:text-yellow-400 focus:outline-none"
                 aria-label={isMuted ? "Unmute" : "Mute"}
               >
@@ -112,7 +116,7 @@ export default function DemoVideo() {
                 max={1}
                 step={0.01}
                 value={isMuted ? 0 : volume}
-                onChange={e => {
+                onChange={(e) => {
                   setVolume(parseFloat(e.target.value));
                   setIsMuted(false);
                 }}
