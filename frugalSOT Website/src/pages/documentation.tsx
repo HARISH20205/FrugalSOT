@@ -36,8 +36,8 @@ export default function DocumentationPage() {
             </h2>
 
             <p className="text-lg text-gray-300 mb-8">
-              This is our documentation. Please download and suggest solutions.
-              CLI tool😉 -{" "}
+              This is our documentation. Please download and suggest solutions.<br />
+              The CLI tool is now available for Ubuntu machines, with Windows and Mac versions coming soon —{" "}
               <a
                 href="https://github.com/HyperKuvid-Labs/FrugalSOT-CLI"
                 className="text-s font-medium mb-4 text-yellow-400"
