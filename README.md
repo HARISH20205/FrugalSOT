@@ -10,7 +10,7 @@ FrugalSOT (Frugal Search Over Models) is an optimized AI inference framework des
 </td>
 <td>
 
-![image](https://github.com/user-attachments/assets/0fe0a7f8-90f6-4eca-868d-65428aa31efa)
+![image](/frugalSOT%20Website/public/frugalsot_logo.png)
 
 </td>
 </tr>
