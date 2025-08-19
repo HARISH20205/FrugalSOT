@@ -173,12 +173,12 @@ export default function HomePage() {
                   <MetricsCard
                     title="Execution Time"
                     metrics={[
-                      { label: "TinyLlama (1.1B, Low)", value: "~100s" },
-                      { label: "TinyDolphin (2.7B, Mid)", value: "~80s" },
-                      { label: "Gemma2 2b (High)", value: "240-280s" },
-                      { label: "Phi 3.7b (Fallback)", value: "240-280s" },
+                      { label: "TinyLlama (Low)", value: "~100s" },
+                      { label: "TinyDolphin (Mid)", value: "~80s" },
+                      { label: "Gemma2 2b (High)", value: "~245s" },
+                      { label: "Phi 2.7b (Fallback)", value: "~256s" },
                       {
-                        label: "FrugalSOT Overall Average: 200s (21.34% faster than Phi 3.7b alone)",
+                        label: "FrugalSOT Overall Average: 199s (21.34% faster than Phi 2.7b alone)",
                         value: "",
                       },
                     ]}
