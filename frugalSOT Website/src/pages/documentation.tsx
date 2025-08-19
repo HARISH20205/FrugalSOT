@@ -20,8 +20,6 @@ export default function DocumentationPage() {
   
   // PDF Viewer state
   const [showPdfViewer, setShowPdfViewer] = useState(false);
-  const [zoom, setZoom] = useState(100);
-  const [rotation, setRotation] = useState(0);
   const [pdfLoaded, setPdfLoaded] = useState(false);
   const [pdfError, setPdfError] = useState(false);
 
@@ -333,7 +331,7 @@ export default function DocumentationPage() {
                     className="relative w-full bg-gray-100"
                     style={{ 
                       height: '80vh',
-                      transform: `rotate(${rotation}deg)`,
+                      transform: `rotate{0}deg)`,
                       transformOrigin: 'center'
                     }}
                   >
@@ -342,10 +340,10 @@ export default function DocumentationPage() {
                       src={pdfLink}
                       className="w-full h-full border-0"
                       style={{ 
-                        transform: `scale(${zoom / 100})`,
+                        transform: `scale(${1})`,
                         transformOrigin: 'top left',
-                        width: `${10000 / zoom}%`,
-                        height: `${10000 / zoom}%`
+                        width: `${10000 / 100}%`,
+                        height: `${10000 / 100}%`
                       }}
                       title="FrugalSOT Research Paper"
                       onLoad={handlePdfLoad}
