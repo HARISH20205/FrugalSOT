@@ -92,5 +92,6 @@ For questions or collaborations, reach out to:
 
 ## Check out the CLI tool for this 
 [Github - HyperKuvid-Labs/FrugalSOT-CLI](https://github.com/HyperKuvid-Labs/FrugalSOT-CLI)
+
 ---
 🚀 *Optimized AI Inference for Edge Devices*
