@@ -67,7 +67,7 @@ export default function ModelPyramid() {
       threshold: "N/A (Fallback)",
       specs: {
         parameters: "13 Billion",
-        memory: "7.4GB",
+        memory: "≈ 16 GB",
         speed: "13s avg.",
       },
     },
@@ -77,7 +77,7 @@ export default function ModelPyramid() {
       threshold: "0.7302",
       specs: {
         parameters: "8 Billion",
-        memory: "4.9 GB",
+        memory: "≈ 14 GB",
         speed: "7s avg.",
       },
     },
@@ -87,7 +87,7 @@ export default function ModelPyramid() {
       threshold: "0.7134",
       specs: {
         parameters: "7 Billion",
-        memory: "4.4 GB",
+        memory: "≈ 13 GB",
         speed: "5s avg.",
       },
     },
@@ -97,7 +97,7 @@ export default function ModelPyramid() {
       threshold: "0.6218",
       specs: {
         parameters: "3 Billion",
-        memory: "2.0 GB",
+        memory: "≈ 10 GB",
         speed: "2s avg.",
       },
     },
