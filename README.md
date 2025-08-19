@@ -87,8 +87,8 @@ We welcome contributions! Feel free to submit issues, pull requests, or suggesti
 
 ## 📬 Contact
 For questions or collaborations, reach out to:
-📧 Email: frugalSot@gmail.com  
-🌍 Project Repository: [GitHub - HARISH20205/RPI](https://github.com/HARISH20205/RPI)  
+📧 Email: hyperkuvidlabs@gmail.com  
+🌍 Project Repository: [GitHub - HARISH20205/FrugalSOT](https://github.com/HARISH20205/FrugalSOT)  
 
 ## Check out the CLI tool for this 
 [Github - HyperKuvid-Labs/FrugalSOT-CLI](https://github.com/HyperKuvid-Labs/FrugalSOT-CLI)
