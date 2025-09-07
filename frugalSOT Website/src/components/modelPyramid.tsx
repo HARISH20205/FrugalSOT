@@ -108,11 +108,11 @@ export default function ModelPyramid() {
       {/* Column Headers */}
       <div className="flex justify-center gap-30 md:gap-40 mb-8">
         <div className="text-center">
-          <h3 className="text-xl font-bold text-yellow-400 mb-2">&lt;8GB Models</h3>
+          <h3 className="text-xl font-bold text-yellow-400 mb-2">&lt;8GB RAM Models</h3>
           <p className="text-sm text-gray-400">Memory Constrained</p>
         </div>
         <div className="text-center">
-          <h3 className="text-xl font-bold text-yellow-400 mb-2">&gt;8GB Models</h3>
+          <h3 className="text-xl font-bold text-yellow-400 mb-2">&gt;8GB RAM Models</h3>
           <p className="text-sm text-gray-400">High Performance</p>
         </div>
       </div>
